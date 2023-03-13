@@ -1,0 +1,4 @@
+.elementor .image_frame,.elementor .wp-caption{margin-bottom:0} .elementor-element[data-col="50"] .portfolio_grid li, .elementor-element[data-col="66"] .portfolio_grid li,
+.elementor-col-50 .portfolio_grid li, .elementor-col-66 .portfolio_grid li{width:50%}
+.elementor-element[data-col="100"] .portfolio_grid li,
+.elementor-col-100 .portfolio_grid li{width:25%} .elementor-widget-container .quick_fact .animate{opacity:1} .elementor .timeline_items *,.elementor .timeline_items *::before{box-sizing:content-box}  .elementor-edit-area:hover{z-index:31}
