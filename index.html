@@ -29,10 +29,10 @@
 
 	<script>
 	
-		var params = new URLSearchParams(window.location.search);
-		var percentage = parseFloat(params.get('val'));
+		//var params = new URLSearchParams(window.location.search);
+		//var percentage = parseFloat(params.get('val'));
 
-		//var percentage = parseFloat(var(value));
+		var percentage = parseFloat(prompt());
 		var chart = document.getElementById("chart");
 		var percent = document.getElementById("percent");
 		var degrees = percentage / 100 * 360;
