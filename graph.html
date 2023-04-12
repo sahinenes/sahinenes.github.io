@@ -1,0 +1,50 @@
+var val=0
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Graph</title>
+	<style>
+		#chart {
+			width: 300px;
+			height: 300px;
+			position: relative;
+			border-radius: 50%;
+			background-color: red;
+		}
+		#percent {
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+			font-size: 30px;
+			font-weight: bold;
+			color: green;
+		}
+	</style>
+</head>
+<body>
+	<div id="chart">
+		
+	</div>
+
+	<script>
+	
+		var params = new URLSearchParams(window.location.search);
+		var percentage = parseFloat(params.get('val'));
+
+		//var percentage = parseFloat(var(value));
+		var chart = document.getElementById("chart");
+		var percent = document.getElementById("percent");
+		var degrees = percentage / 100 * 360;
+		var radians = degrees * Math.PI / 180;
+		var x = Math.sin(radians) * 150;
+		var y = Math.cos(radians) * -150;
+		var mid = (degrees > 180) ? 1 : 0;
+		var path = "M 0 0 v -150 A 150 150 1 " + mid + " 1 " + x + " " + y + " z";
+
+		chart.style.backgroundImage = "url('data:image/svg+xml;utf8,<svg viewBox=\"-150 -150 300 300\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"" + path + "\" fill=\"green\"/></svg>')";
+
+		percent.textContent = percentage.toFixed(2) + "%";
+	</script>
+</body>
+</html>
