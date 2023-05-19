@@ -1,50 +1,59 @@
-
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Graph</title>
-	<style>
-		#chart {
-			width: 300px;
-			height: 300px;
-			position: relative;
-			border-radius: 50%;
-			background-color: red;
-		}
-		#percent {
-			position: absolute;
-			top: 50%;
-			left: 50%;
-			transform: translate(-50%, -50%);
-			font-size: 30px;
-			font-weight: bold;
-			color: green;
-		}
-	</style>
+  <!--
+    If you are serving your web app in a path other than the root, change the
+    href value below to reflect the base path you are serving from.
+
+    The path provided below has to start and end with a slash "/" in order for
+    it to work correctly.
+
+    For more details:
+    * https://developer.mozilla.org/en-US/docs/Web/HTML/Element/base
+
+    This is a placeholder for base href that will be replaced by the value of
+    the `--base-href` argument provided to `flutter build`.
+  -->
+  <base href="/">
+
+  <meta charset="UTF-8">
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+  <meta name="description" content="MTC">
+
+  <!-- iOS meta tags & icons -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="mtc">
+  <link rel="apple-touch-icon" href="icons/Icon-192.png">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="favicon.png"/>
+
+  <title>mtc</title>
+  <link rel="manifest" href="manifest.json">
+
+  <script>
+    // The value below is injected by flutter build, do not touch.
+    var serviceWorkerVersion = '3776094074';
+  </script>
+  <!-- This script adds the flutter initialization JS code -->
+  <script src="flutter.js" defer></script>
 </head>
 <body>
-	<div id="chart">
-		
-	</div>
-
-	<script>
-	
-		//var params = new URLSearchParams(window.location.search);
-		//var percentage = parseFloat(params.get('val'));
-
-		var percentage = parseFloat(prompt());
-		var chart = document.getElementById("chart");
-		var percent = document.getElementById("percent");
-		var degrees = percentage / 100 * 360;
-		var radians = degrees * Math.PI / 180;
-		var x = Math.sin(radians) * 150;
-		var y = Math.cos(radians) * -150;
-		var mid = (degrees > 180) ? 1 : 0;
-		var path = "M 0 0 v -150 A 150 150 1 " + mid + " 1 " + x + " " + y + " z";
-
-		chart.style.backgroundImage = "url('data:image/svg+xml;utf8,<svg viewBox=\"-150 -150 300 300\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"" + path + "\" fill=\"green\"/></svg>')";
-
-		percent.textContent = percentage.toFixed(2) + "%";
-	</script>
+  <script>
+    window.addEventListener('load', function(ev) {
+      // Download main.dart.js
+      _flutter.loader.loadEntrypoint({
+        serviceWorker: {
+          serviceWorkerVersion: serviceWorkerVersion,
+        },
+        onEntrypointLoaded: function(engineInitializer) {
+          engineInitializer.initializeEngine().then(function(appRunner) {
+            appRunner.runApp();
+          });
+        }
+      });
+    });
+  </script>
 </body>
 </html>
