@@ -53,7 +53,8 @@ img.emoji {
 
     .sliding-images img {
       display: inline-block;
-      height: 200px;
+      height: 50px;
+	  
       margin-right: 20px;
     }
 
@@ -77,7 +78,7 @@ body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: 
 .wpml-ls-display{display:inline!important}
 </style>
 <link rel='stylesheet' id='mfn-be-css' href='../wp-content/cache/wpfc-minified/d2hdafp7/f9l9j.css' type='text/css' media='all'>
-<link rel='stylesheet' id='mfn-animations-css' href='../wp-content/cache/wpfc-minified/qiklr9uu/f9l9j.css' type='text/css' media='all'>
+<link rel='stylesheet' id='mfn-animations-css' href='../wp-content/cache/wpfc-minified/qiklr9uru/f9l9j.css' type='text/css' media='all'>
 <link rel='stylesheet' id='mfn-font-awesome-css' href='../wp-content/cache/wpfc-minified/kmy46s25/f9l9j.css' type='text/css' media='all'>
 <link rel='stylesheet' id='mfn-jplayer-css' href='../wp-content/cache/wpfc-minified/d4y4favp/f9l9j.css' type='text/css' media='all'>
 <link rel='stylesheet' id='mfn-responsive-css' href='../wp-content/cache/wpfc-minified/eivq8n2v/f9l9j.css' type='text/css' media='all'>
@@ -312,29 +313,6 @@ img.logo-main.scale-with-grid {
 
 	<!-- mfn_hook_top --><!-- mfn_hook_top -->
 	
-	<script>
-		var slides = document.getElementsByClassName('slide');
-		var currentSlide = 0;
-	
-		function showSlide(n) {
-		  for (var i = 0; i < slides.length; i++) {
-			slides[i].style.display = 'none';
-		  }
-		  slides[n].style.display = 'block';
-		}
-	
-		function nextSlide() {
-		  currentSlide++;
-		  if (currentSlide >= slides.length) {
-			currentSlide = 0;
-		  }
-		  showSlide(currentSlide);
-		}
-	
-		setInterval(nextSlide, 2000); // Her 2 saniyede bir sonraki slayta geçmek için
-	
-		showSlide(currentSlide);
-	  </script>
 	<div id="Wrapper">
 
 		<div id="Header_wrapper" class="">
@@ -355,12 +333,12 @@ img.logo-main.scale-with-grid {
 
 <div class="header_placeholder"></div>
 
-<div id="Top_bar" class="loading">
+<div id="Top_bar"  class="loading">
 
-	<div class="container">
+	<div class="container" >
 		<div class="column one">
 
-			<div class="top_bar_left clearfix">
+			<div class="top_bar_left clearfix " >
 
 <div class="logo"><a          id="logo" href="../index.htm" title=" MTC Makine ve Otomasyon" data-height="90" data-padding="40"><img class=" " src="../wp-content/uploads/2022/07/logo-mtc.png"  data-height="90" alt="logo-mtc" ></a></div>				<div class="menu_wrapper">
 					<a class="responsive-menu-toggle " href="#" aria-label="Mobile menu"><i class="icon-menu-fine" aria-hidden="true"></i></a><nav id="menu" role="navigation" aria-expanded="false" aria-label="Main Menu"><ul id="menu-main-menu-en" class="menu menu-main"><li id="menu-item-2023" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="what-we-do/index.htm"><span>NE YAPIYORUZ</span></a></li>
@@ -400,7 +378,7 @@ img.logo-main.scale-with-grid {
 			</div>	
 			<div class="search_wrapper">
 				
-<form method="get" id="searchform" action="http://www.mtcmakine.com/">
+<form method="get" id="searchform" action="http://www.mtcmakine.com/en">
 
 	
   <svg class="icon_search" width="26" viewbox="0 0 26 26" aria-label="search icon"><defs><style>.path{fill:none;stroke:#000;stroke-miterlimit:10;stroke-width:1.5px;}</style></defs><circle class="path" cx="11.35" cy="11.35" r="6"></circle><line class="path" x1="15.59" y1="15.59" x2="20.65" y2="20.65"></line></svg>
@@ -430,9 +408,21 @@ img.logo-main.scale-with-grid {
 
 				
 				<div class="mfn-builder-content"></div><div class="section the_content has_content"><div class="section_wrapper"><div class="the_content_wrapper is-elementor">		<div data-elementor-type="wp-page" data-elementor-id="2142" class="elementor elementor-2142 elementor-121">
-									<section class="elementor-section elementor-top-section elementor-element elementor-element-9513205 elementor-section-stretched elementor-section-height-min-height elementor-hidden-mobile elementor-section-boxed elementor-section-height-default elementor-section-items-middle" data-id="9513205" data-element_type="section" data-settings="{&quot;stretch_section&quot;:&quot;section-stretched&quot;,&quot;background_background&quot;:&quot;video&quot;,&quot;background_video_link&quot;:&quot;\/wp-content\/uploads\/2022\/08\/mtc_video.mp4&quot;}">
-								<div class="elementor-background-video-container elementor-hidden-phone">
-													<video class="elementor-background-video-hosted elementor-html5-video" autoplay="" muted="" playsinline="" loop=""></video>
+							
+					<section class="elementor-section elementor-top-section elementor-element elementor-element-9513205 elementor-section-stretched elementor-section-height-min-height elementor-hidden-mobile elementor-section-boxed elementor-section-height-default elementor-section-items-middle" data-id="9513205" data-element_type="section" data-settings="{&quot;stretch_section&quot;:&quot;section-stretched&quot;,&quot;background_background&quot;:&quot;video&quot;,&quot;background_video_link&quot;:&quot;\/wp-content\/uploads\/2022\/08\/mtc_video.mp4&quot;}" style="width: 981px; left: -29.8906px;">
+						<div class="elementor-background-video-container elementor-hidden-phone">
+											<video class="elementor-background-video-hosted elementor-html5-video" autoplay="" muted="" playsinline="" loop="" src="/wp-content/uploads/2022/08/mtc_video.mp4" style="width: 1422.22px; height: 800px;"></video>
+									</div>
+						<div class="elementor-container elementor-column-gap-wider">
+			<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-a92fc94" data-id="a92fc94" data-element_type="column">
+	<div class="elementor-widget-wrap">
+							</div>
+</div>
+					</div>
+</section>
+					<!--<section   class="elementor-section elementor-top-section elementor-element elementor-element-9513205 elementor-section-stretched elementor-section-height-min-height elementor-hidden-mobile elementor-section-boxed elementor-section-height-default elementor-section-items-middle" data-id="9513205" data-element_type="section" data-settings="{&quot;stretch_section&quot;:&quot;section-stretched&quot;,&quot;background_background&quot;:&quot;video&quot;,&quot;background_video_link&quot;:&quot;\/wp-content\/uploads\/2022\/08\/mtc_video.mp4&quot;}">
+								<div  class="elementor-background-video-container elementor-hidden-phone">
+									<video  class="elementor-background-video-hosted elementor-html5-video" autoplay="" muted="" playsinline="" loop=""></video>
 											</div>
 								<div class="elementor-container elementor-column-gap-wider">
 					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-a92fc94" data-id="a92fc94" data-element_type="column">
@@ -440,7 +430,7 @@ img.logo-main.scale-with-grid {
 									</div>
 		</div>
 							</div>
-		</section>
+		</section>-->	
 				<section class="elementor-section elementor-top-section elementor-element elementor-element-cb4f397 elementor-section-stretched elementor-hidden-mobile elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="cb4f397" data-element_type="section" data-settings="{&quot;stretch_section&quot;:&quot;section-stretched&quot;,&quot;background_background&quot;:&quot;classic&quot;}">
 						<div class="elementor-container elementor-column-gap-wider">
 					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-bfbe7cc" data-id="bfbe7cc" data-element_type="column">
@@ -556,16 +546,17 @@ img.logo-main.scale-with-grid {
 				</div>
 				
 </section>
-</section>
-		<div class="sliding-images-container">
-		<div class="sliding-images">
-		<img class="swiper-slide-image" src="../wp-content/uploads/elementor/thumbs/bosch-psq0h1hq2jiliuv4jmlvh7vuvxe1bjz7rknxo7mq5q.png" alt="bosch">
-		<img  class="swiper-slide-image" src="../wp-content/uploads/elementor/thumbs/dd-psq0h1hq2jiliuv4jmlvh7vuvxe1bjz7rknxo7mq5q.png" alt="dd">
-		<img  class="swiper-slide-image" src="../wp-content/uploads/elementor/thumbs/arcelik-psq0h1hq2jiliuv4jmlvh7vuvxe1bjz7rknxo7mq5q.png" alt="arcelik">
-		<img  class="swiper-slide-image"  src="../wp-content/uploads/elementor/thumbs/vestel-psq0h74r7jqbgimxmp1mw6gmg8m8lqllsckujved4e.png" alt="vestel">
-		<img  class="swiper-slide-image" src="../wp-content/uploads/elementor/thumbs/silverline-psq0h66x0pp14woas6n0bop5uuqve1hvg7xd2lfram.png" alt="silver">
+<div class="sliding-images-container">
+	<div class="sliding-images">
+	<img class="swiper-slide-image" src="../wp-content/uploads/elementor/thumbs/bsh-psq0h1hq2jiliuv4jmlvh7vuvxe1bjz7rknxo7mq5q.png" alt="bosch">
+	<img  class="swiper-slide-image" src="../wp-content/uploads/elementor/thumbs/dd-psq0h1hq2jiliuv4jmlvh7vuvxe1bjz7rknxo7mq5q.png" alt="dd">
+	<img  class="swiper-slide-image" src="../wp-content/uploads/elementor/thumbs/arcelik-psq0h1hq2jiliuv4jmlvh7vuvxe1bjz7rknxo7mq5q.png" alt="arcelik">
+	<img  class="swiper-slide-image"  src="../wp-content/uploads/elementor/thumbs/vestel-psq0h74r7jqbgimxmp1mw6gmg8m8lqllsckujved4e.png" alt="vestel">
+	<img  class="swiper-slide-image" src="../wp-content/uploads/elementor/thumbs/silverline-psq0h66x0pp14woas6n0bop5uuqve1hvg7xd2lfram.png" alt="silver">
+	</div>
 		</div>
-			</div>
+</section>
+		
 
 	
 	
