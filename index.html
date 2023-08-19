@@ -1,245 +1,642 @@
-<!DOCTYPE HTML>
-<!--
-	Concept by teknikizolasyonhavalandirma.com
-	Twitter: http://twitter.com/gettemplateco
-	URL: http://teknikizolasyonhavalandirma.com
--->
-<html>
-	<head>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>Teknik İzolasyon ve Havalandırma</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="description" content="İzolasyon ve Havalandırma Çözümleri Alanında Uzmanız." />
-	<meta name="keywords" content="İzolasyon çözümleri, Havalandırma sistemleri, Enerji verimliliği, İç mekan hava kalitesi, Konforlu yaşam alanları, Sürdürülebilir çözümler, Uzman izolasyon, Havalandırma tasarımı, Özelleştirilmiş havalandırma, Isı yalıtımı, Ses yalıtımı, Endüstriyel havalandırma, İnşaat izolasyonu, Enerji tasarrufu, İzolasyon malzemeleri, En iyi havalandırma çözümleri, Profesyonel izolasyon hizmetleri, Sürdürülebilirlik odaklı izolasyon, Havalandırma mühendisliği, İç mekan hava sirkülasyonu" />
-	<meta name="author" content="teknikizolasyonhavalandirma.com" />
+<!DOCTYPE html>
+<html lang="en">
 
-  	<!-- Facebook and Twitter integration -->
-	<meta property="og:title" content=""/>
-	<meta property="og:image" content=""/>
-	<meta property="og:url" content=""/>
-	<meta property="og:site_name" content=""/>
-	<meta property="og:description" content=""/>
-	<meta name="twitter:title" content="" />
-	<meta name="twitter:image" content="" />
-	<meta name="twitter:url" content="" />
-	<meta name="twitter:card" content="" />
+<head>
+    <meta charset="utf-8">
+    <title>GrowMark - Digital Marketing HTML Template</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
 
-	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
-	
-	<!-- Animate.css -->
-	<link rel="stylesheet" href="css/animate.css">
-	<!-- Icomoon Icon Fonts-->
-	<link rel="stylesheet" href="css/icomoon.css">
-	<!-- Bootstrap  -->
-	<link rel="stylesheet" href="css/bootstrap.css">
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
 
-	<!-- Magnific Popup -->
-	<link rel="stylesheet" href="css/magnific-popup.css">
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&family=Roboto:wght@500;700&display=swap" rel="stylesheet">  
 
-	<!-- Theme style  -->
-	<link rel="stylesheet" href="css/style.css">
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
 
-	<!-- Modernizr JS -->
-	<script src="js/modernizr-2.6.2.min.js"></script>
-	<!-- FOR IE9 below -->
-	<!--[if lt IE 9]>
-	<script src="js/respond.min.js"></script>
-	<![endif]-->
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
 
-	</head>
-	<body>
-		
-	<div class="fh5co-loader"></div>
-	
-	<div id="page">
-	<nav class="fh5co-nav" role="navigation">
-		<div class="container">
-			<div class="row">
-				<div class="col-xs-2 text-left">
-					<div id="fh5co-logo"><a href="index.html">TİH<span>.</span></a></div>
-				</div>
-				<div class="col-xs-10 text-right menu-1">
-					<ul>
-						<li class="active"><a href="index.html">Anasayfa</a></li>
-						<li><a href="aboutus.html">Hakkımızda</a></li>
-						<li><a href="products.html">Projelerimiz</a></li>
-						<li><a href="contact.html">İletişim</a></li>
-					</ul>
-				</div>
-			</div>
-			
-		</div>
-	</nav>
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
 
-	<header id="fh5co-header" class="fh5co-cover" role="banner" style="background-image:url(images/product.gif);" data-stellar-background-ratio="0.5">
-		<div class="overlay"></div>
-		<div class="container">
-			<div class="row">
-				<div class="col-md-7 text-left">
-					<div class="display-t">
-						<div class="display-tc animate-box" data-animate-effect="fadeInUp">
-							<h1 class="mb30">Sizin işiniz, bizim izolasyon ve havalandırma uzmanlığımızla iyileşiyor!</h1>
-							<p>
-								<a href="contact.html" " class="btn btn-primary">İLETİŞİME GEÇ</a>  <em class="or">veya</em> 
-								<a href="services.html" >Hakkımızda daha çok şey öğren.</a>
-							</p>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</header>
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Spinner Start -->
+    <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-border text-primary" role="status" style="width: 3rem; height: 3rem;"></div>
+    </div>
+    <!-- Spinner End -->
 
 
+    <!-- Topbar Start -->
+    <div class="container-fluid bg-primary text-white d-none d-lg-flex">
+        <div class="container py-3">
+            <div class="d-flex align-items-center">
+                <a href="index.html">
+                    <h2 class="text-white fw-bold m-0">TİH</h2>
+                </a>
+                <div class="ms-auto d-flex align-items-center">
+                    <small class="ms-4"><i class="fa fa-map-marker-alt me-3"></i>Çerkezköy, Tekirdağ</small>
+                    <small class="ms-4"><i class="fa fa-envelope me-3"></i>a.ova59@gmail.com</small>
+                    <small class="ms-4"><i class="fa fa-phone-alt me-3"></i>+0533 604 6949</small>
+                    <!-- <div class="ms-3 d-flex">
+                        <a class="btn btn-sm-square btn-light text-primary rounded-circle ms-2" href=""><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-sm-square btn-light text-primary rounded-circle ms-2" href=""><i class="fab fa-twitter"></i></a>
+                        <a class="btn btn-sm-square btn-light text-primary rounded-circle ms-2" href=""><i class="fab fa-linkedin-in"></i></a>
+                    </div>--> 
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Topbar End -->
 
 
-
-	<div id="fh5co-services" class="fh5co-bg-section border-bottom">
-		<div class="container">
-			
-			<div class="row">
-				<div class="col-md-4 col-sm-6 ">
-					<div class="feature-center animate-box" data-animate-effect="fadeInUp">
-						<span class="icon">
-							<i class="icon-eye"></i>
-						</span>
-						<h3>Menfez ve Havalandırma Sistemleri</h3>
-						<p>İç mekan hava kalitesini optimize etmek ve verimliliği artırmak için en modern menfez ve havalandırma sistemlerini sağlıyoruz.</p>
-					</div>
-				</div>
-				<div class="col-md-4 col-sm-6 ">
-					<div class="feature-center animate-box" data-animate-effect="fadeInUp">
-						<span class="icon">
-							<i class="icon-command"></i>
-						</span>
-						<h3>Hücre Fan ve Salyangoz Fanlar</h3>
-						<p>Endüstriyel alanlarınızda mükemmel havalandırmayı sağlamak için yüksek performanslı fan çözümleri sunuyoruz.</p>			
-					</div>
-				</div>
-				<div class="clearfix visible-sm-block"></div>
-				<div class="col-md-4 col-sm-6 ">
-					<div class="feature-center animate-box" data-animate-effect="fadeInUp">
-						<span class="icon">
-							<i class="icon-power"></i>
-						</span>
-						<h3>Davlumbaz ve Mutfak Havalandırması</h3>
-						<p>Mutfaklarda etkili havalandırma çözümleri ile temizlik ve işletmenin hijyenine katkı sağlıyoruz.</p>
-					</div>
-				</div>
-
-				<div class="clearfix visible-md-block"></div>
-
-				<div class="col-md-4 col-sm-6 ">
-					<div class="feature-center animate-box" data-animate-effect="fadeInUp">
-						<span class="icon">
-							<i class="icon-eye"></i>
-						</span>
-						<h3>İzolasyon Çözümleri</h3>
-						<p>Enerji tasarrufu, sıcaklık kontrolü ve ses yalıtımı için en iyi izolasyon malzemeleriyle çözümler sunuyoruz.</p>
-						
-					</div>
-				</div>
-		
-
-				<div class="clearfix visible-md-block"></div>
-
-			</div>
-		</div>
-	</div>
+    <!-- Navbar Start -->
+    <div class="container-fluid bg-white sticky-top">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg bg-white navbar-light p-lg-0">
+                <a href="index.html" class="navbar-brand d-lg-none">
+                    <h1 class="fw-bold m-0">GrowMark</h1>
+                </a>
+                <button type="button" class="navbar-toggler me-0" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <div class="navbar-nav">
+                        <a href="index.html" class="nav-item nav-link active">Ana Sayfa</a>
+                        <a href="about.html" class="nav-item nav-link">Hakkında</a>
+                        <a href="service.html" class="nav-item nav-link">Hizmetler</a>
+                        <a href="project.html" class="nav-item nav-link">Projeler</a>
+                        <a href="contact.html" class="nav-item nav-link">İletişim</a>
+                    </div>
+                    <div class="ms-auto d-none d-lg-block">
+                        <a href="contact.html" class="btn btn-primary rounded-pill py-2 px-3">İletişime Geç</a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+    <!-- Navbar End -->
 
 
-	<div id="fh5co-testimonial" class="fh5co-bg-section">
-		<div class="container">
-			<div class="row animate-box row-pb-md">
-			
-				<div class="col-md-8 col-md-offset-2 text-left fh5co-heading">
-					<h2>Müşteri Memnuniyeti Odaklıyız</h2>
-					<p>Projelerinizi her aşamada yönlendirmek, gereksinimlerinizi anlamak ve mükemmel sonuçlar elde etmek için buradayız. Müşterilerimizin güvenini kazanarak, sektörde liderliğimizi sürdürüyoruz.</p>
-				</div>
-			</div>
-			<div class="row animate-box row-pb-md" data-animate-effect="fadeInUp">
-				<div class="col-md-8 col-md-offset-2 text-left fh5co-heading">
-					<h2>Bizimle İletişime Geçin</h2>
-					<p>Enerji verimliliği ve işletme performansınızı artırmak için bize katılın. Profesyonel ekiplerimiz ve özelleştirilmiş çözümlerimizle büyük projelerinizi daha yükseğe taşıyabiliriz.
-						İzolasyon ve havalandırma konusunda size güç vermek için buradayız. Sektördeki en sağlam partner: Biz!</p>
-				</div>
-			</div>
-		</div>
-	</div>
+    <!-- Carousel Start -->
+    <div class="container-fluid px-0 mb-5">
+        <div id="header-carousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="w-100" src="img/bg.jpg" alt="Image">
+                    <div class="carousel-caption">
+                        <div class="container">
+                            <div class="row justify-content-start">
+                                <div class="col-lg-7 text-start">
+                                    <p class="fs-4 text-white animated slideInRight"><strong>Hoşgeldiniz.</strong></p>
+                                    <h1 class="display-1 text-white mb-4 animated slideInRight">Sizin işiniz, bizim izolasyon ve havalandırma uzmanlığımızla iyileşiyor!</h1>
+                                    <a href="about.html" class="btn btn-primary rounded-pill py-3 px-5 animated slideInRight">Hakkımızda</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img class="w-100" src="img/background.jpeg" alt="Image">
+                    <div class="carousel-caption">
+                        <div class="container">
+                            <div class="row justify-content-end">
+                                <div class="col-lg-7 text-end">
+                                    <p class="fs-4 text-white animated slideInLeft"><strong>Hoşgeldiniz</strong></p>
+                                    <h1 class="display-1 text-white mb-5 animated slideInLeft">İzolasyon ve Havalandırmanın Güvencesi: Büyük Projelerde Yanınızdayız!</h1>
+                                    <a href="contact.html" class="btn btn-primary rounded-pill py-3 px-5 animated slideInLeft">İletişime Geç</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#header-carousel"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#header-carousel"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+    <!-- Carousel End -->
 
 
+    <!-- Features Start -->
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="row g-0 feature-row">
+                <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.1s">
+                    <div class="feature-item border h-100 p-5">
+                        <div class="btn-square bg-light rounded-circle mb-4" style="width: 64px; height: 64px;">
+                            <img class="img-fluid" src="img/icon/icon-1.png" alt="Icon">
+                        </div>
+                        <h5 class="mb-3">Müşteri Memnuniyeti</h5>
+                        <p class="mb-0">Müşteri Memnuniyeti Önceliğimiz: Sizin İçin Buradayız</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.3s">
+                    <div class="feature-item border h-100 p-5">
+                        <div class="btn-square bg-light rounded-circle mb-4" style="width: 64px; height: 64px;">
+                            <img class="img-fluid" src="img/icon/icon-2.png" alt="Icon">
+                        </div>
+                        <h5 class="mb-3">Deneyimli Ekip</h5>
+                        <p class="mb-0">Deneyimli Ekip, Güvenilir Çözümler</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.5s">
+                    <div class="feature-item border h-100 p-5">
+                        <div class="btn-square bg-light rounded-circle mb-4" style="width: 64px; height: 64px;">
+                            <img class="img-fluid" src="img/icon/icon-3.png" alt="Icon">
+                        </div>
+                        <h5 class="mb-3">Uygun Fiyatlar</h5>
+                        <p class="mb-0">Kaliteli Çözümler, Uygun Fiyatlarla</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.7s">
+                    <div class="feature-item border h-100 p-5">
+                        <div class="btn-square bg-light rounded-circle mb-4" style="width: 64px; height: 64px;">
+                            <img class="img-fluid" src="img/icon/icon-4.png" alt="Icon">
+                        </div>
+                        <h5 class="mb-3">7/24 Destek</h5>
+                        <p class="mb-0">Her An Yanınızdayız: 7/24 Destek Hizmeti</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Features End -->
 
-	<div id="fh5co-started">
-		<div class="container">
-			<div class="row animate-box">
-				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
-					<span>Haydi birlikte çalışalım</span>
-					<h2>İzolasyon ve Havalandırmanın Güvencesi: Büyük Projelerde Yanınızdayız!</h2>
-					<p><button onclick="location.href='contact.html'" type="submit" class="btn btn-primary">İletişime Geç</button></p>
-				</div>
-			</div>
-		</div>
-	</div>
 
-	<footer id="fh5co-footer" role="contentinfo">
-		<div class="container">
-			<div class="row row-pb-md">
-				<div class="col-md-4 fh5co-widget ">
-					<h3>Teknik İzolasyon ve Havalandırma.</h3>
-					<p>İzolasyon ve Havalandırma Şirketi olarak, daha konforlu, daha verimli ve daha sağlıklı yaşam alanları oluşturmak için sizi bekliyoruz. Birlikte işletmenizi daha iyi bir geleceğe taşıyalım.</p>
-					<!--<p><a href="#">Learn More</a></p>--> 
-				</div>
-				<div class="col-md-2 col-sm-4 col-xs-6 col-md-push-1 ">
-					<ul class="fh5co-footer-links">
-						<li><a href="index.html">Anasayfa</a></li>
-						<li><a href="services.html">Hakkımızda</a></li>
-						<li><a href="products.html">Projelerimiz</a></li>
-						<li><a href="contact.html">İletişim</a></li>
-					</ul>
-				</div>
+    <!-- About Start -->
+    <div class="container-xxl  my-5" style="background-image:url(img/pipes.jpeg); background-size: cover;" data-stellar-background-ratio="0.5">
+        <div class="container">
+            <div class="row g-0">
+                <div class="col-lg-6">
+                 
+                </div>
+                <div class="col-lg-6 pt-lg-5 wow fadeIn" data-wow-delay="0.5s">
+                    <div class="bg-white rounded-top p-5 mt-lg-5">
+                        <p class="fs-5 fw-medium text-primary">Hakkımızda</p>
+                        <h1 class="display-6 mb-4">İzolasyon ve Havalandırma Uzmanı</h1>
+                        <p class="mb-4">Teknik İzolasyon ve Havalandırma Şirketi olarak, daha konforlu, daha verimli ve daha sağlıklı yaşam alanları oluşturmak için sizi bekliyoruz. Birlikte işletmenizi daha iyi bir geleceğe taşıyalım.</p>
+                        <div class="row g-5 pt-2 mb-5">
+                            <div class="col-sm-6">
+                                <img class="img-fluid mb-4" src="img/icon/icon-5.png" alt="">
+                                <h5 class="mb-3">Profesyonel Ekip</h5>
+                                <span>Alanında uzman, eğitimli ve deneyimli ekibimiz, her aşamada en yüksek kalite standartlarını sağlamak için çaba sarf eder.</span>
+                            </div>
+                            <div class="col-sm-6">
+                                <img class="img-fluid mb-4" src="img/icon/icon-2.png" alt="">
+                                <h5 class="mb-3">Özelleştirilmiş Çözümler</h5>
+                                <span>Her projenin özgün ihtiyaçlarına uygun çözümler sunarak, işletmenizin hedeflerine ulaşmanıza yardımcı oluyoruz.</span>
+                            </div>
+                        </div>
+                        <div class="row g-5 pt-2 mb-5">
+                            <div class="col-sm-6">
+                                <img class="img-fluid mb-4" src="img/icon/icon-1.png" alt="">
+                                <h5 class="mb-3">Teknolojik Liderlik</h5>
+                                <span> Güçlü teknolojik altyapımız sayesinde, en son gelişmeleri yakından takip ederek projelerinizi yenilikçi yaklaşımlarla gerçekleştiriyoruz.</span>
+                            </div>
+                            <div class="col-sm-6">
+                                <img class="img-fluid mb-4" src="img/icon/icon-2.png" alt="">
+                                <h5 class="mb-3">Verimlilik ve Tasarruf</h5>
+                                <span>Hem enerji verimliliğini artırmak hem de işletmenizin maliyetlerini düşürmek için en iyi izolasyon ve havalandırma uygulamalarını sunuyoruz.</span>
+                            </div>
+                        </div>
+                        <a class="btn btn-primary rounded-pill py-3 px-5" href="">Keşfet</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- About End -->
 
 
+    <!-- Video Modal Start -->
+   <!-- <div class="modal modal-video fade" id="videoModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content rounded-0">
+                <div class="modal-header">
+                    <h3 class="modal-title" id="exampleModalLabel">Youtube Video</h3>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">-->
+                    <!-- 16:9 aspect ratio -->
+                   <!-- <div class="ratio ratio-16x9">
+                        <iframe class="embed-responsive-item" src="" id="video" allowfullscreen allowscriptaccess="always"
+                            allow="autoplay"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>-->
+    <!-- Video Modal End -->
 
-			</div>
 
-			<div class="row copyright">
-				<div class="col-md-12 text-center">
-					<p>
-						<small class="block">&copy; 2023 sahinsoftware. All Rights Reserved.</small> 
-						<small class="block">Designed by <a href="https://sahinsoftware.com/" target="https://sahinsoftware.com/">sahinsoftware</a> </small>
-					</p>
-					<p>
-					</p>
-				</div>
-			</div>
+    <!-- Service Start -->
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
+                <p class="fs-5 fw-medium text-primary">Hizmetlerimiz</p>
+                <h1 class="display-5 mb-5">İzolasyon ve Havalandırma Hizmetlerimiz</h1>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="service-item position-relative h-100">
+                        <div class="service-text rounded p-5">
+                            <div class="btn-square bg-light rounded-circle mx-auto mb-4" style="width: 64px; height: 64px;">
+                                <img class="img-fluid" src="img/icon/icon-11.png" alt="Icon">
+                            </div>
+                            <h5 class="mb-3">Baca İzolasyon Sistemleri</h4>
+                            <p class="mb-0">Genel olarak, baca izolasyon sistemleri, binaların enerji verimliliğini artırmak, ısı kayıplarını minimize etmek ve çevresel etkileri azaltmak amacıyla kullanılan önemli bir yapısal özelliktir.</p>
+                        </div>
+                     
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="service-item position-relative h-100">
+                        <div class="service-text rounded p-5">
+                            <div class="btn-square bg-light rounded-circle mx-auto mb-4" style="width: 64px; height: 64px;">
+                                <img class="img-fluid" src="img/icon/icon-11.png" alt="Icon">
+                            </div>
+                            <h5 class="mb-3">Davlumbaz</h4>
+                            <p class="mb-0">Davlumbazlar, işletmelerin iç mekan hava kalitesini yükseltirken aynı zamanda hijyen standartlarını da sağlamalarına yardımcı olur. </p>
+                        </div>
+                       
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="service-item position-relative h-100">
+                        <div class="service-text rounded p-5">
+                            <div class="btn-square bg-light rounded-circle mx-auto mb-4" style="width: 64px; height: 64px;">
+                                <img class="img-fluid" src="img/icon/icon-11.png" alt="Icon">
+                            </div>
+                            <h5 class="mb-3">Egzoz Çıkış Boruları</h4>
+                            <p class="mb-0">Bu borular, kirli havanın dışarıya atılması, iç mekan hava kalitesinin iyileştirilmesi, iç iklim kontrolü ve yangın güvenliği gibi önemli işlevleri yerine getirir.</p>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="service-item position-relative h-100">
+                        <div class="service-text rounded p-5">
+                            <div class="btn-square bg-light rounded-circle mx-auto mb-4" style="width: 64px; height: 64px;">
+                                <img class="img-fluid" src="img/icon/icon-11.png" alt="Icon">
+                            </div>
+                            <h5 class="mb-3">Havalandırma Kanal Boru</h4>
+                            <p class="mb-0">Havalandırma kanal boruları, havalandırma sistemlerinin temel bileşenlerinden biridir. Bu borular, havanın bir yerden diğerine taşınması ve dağıtılması için kullanılır.  </p>
+                        </div>
+                      
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="service-item position-relative h-100">
+                        <div class="service-text rounded p-5">
+                            <div class="btn-square bg-light rounded-circle mx-auto mb-4" style="width: 64px; height: 64px;">
+                                <img class="img-fluid" src="img/icon/icon-11.png" alt="Icon">
+                            </div>
+                            <h5 class="mb-3">İzolasyon</h4>
+                            <p class="mb-0">Havalandırma kanallarının içinden geçtiği alanlarda oluşabilecek ısı kaybını veya soğuma etkilerini de engellemeye yardımcı olur. Bu da enerji tasarrufu sağlarken, iç mekanların istenilen sıcaklıkta tutulmasına yardımcı olur.</p>
+                        </div>
+                     
+                    </div>
+                </div>
 
-		</div>
-	</footer>
-	</div>
+            </div>
+        </div>
+    </div>
+    <!-- Service End -->
 
-	<div class="gototop js-top">
-		<a href="#" class="js-gotop"><i class="icon-arrow-up"></i></a>
-	</div>
-	
-	<!-- jQuery -->
-	<script src="js/jquery.min.js"></script>
-	<!-- jQuery Easing -->
-	<script src="js/jquery.easing.1.3.js"></script>
-	<!-- Bootstrap -->
-	<script src="js/bootstrap.min.js"></script>
-	<!-- Waypoints -->
-	<script src="js/jquery.waypoints.min.js"></script>
-	<!-- countTo -->
-	<script src="js/jquery.countTo.js"></script>
-	<!-- Magnific Popup -->
-	<script src="js/jquery.magnific-popup.min.js"></script>
-	<script src="js/magnific-popup-options.js"></script>
-	<!-- Stellar -->
-	<script src="js/jquery.stellar.min.js"></script>
-	<!-- Main -->
-	<script src="js/main.js"></script>
 
-	</body>
+    <!-- Project Start -->
+    <div class="container-xxl pt-5">
+        <div class="container">
+            <div class="text-center text-md-start pb-5 pb-md-0 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
+                <p class="fs-5 fw-medium text-primary">Projelerimiz</p>
+                <h1 class="display-5 mb-5">Çok Harika Projeler Yaptık</h1>
+            </div>
+            <div class="owl-carousel project-carousel wow fadeInUp" data-wow-delay="0.1s">
+                <div class="project-item mb-5">
+                    <div class="position-relative">
+                        <img class="img-fluid" src="img/products/1.jpg" alt="">
+                        <div class="project-overlay">
+                            <a class="btn btn-lg-square btn-light rounded-circle m-1" href="img/products/1.jpg" data-lightbox="project"><i class="fa fa-eye"></i></a>
+                           
+                        </div>
+                    </div>
+                </div>
+                <div class="project-item mb-5">
+                    <div class="position-relative">
+                        <img class="img-fluid" src="img/products/2.jpg" alt="">
+                        <div class="project-overlay">
+                            <a class="btn btn-lg-square btn-light rounded-circle m-1" href="img/products/2.jpg" data-lightbox="project"><i class="fa fa-eye"></i></a>
+                           
+                        </div>
+                    </div>
+                </div>
+                <div class="project-item mb-5">
+                    <div class="position-relative">
+                        <img class="img-fluid" src="img/products/3.jpg" alt="">
+                        <div class="project-overlay">
+                            <a class="btn btn-lg-square btn-light rounded-circle m-1" href="img/products/3.jpg" data-lightbox="project"><i class="fa fa-eye"></i></a>
+                           
+                        </div>
+                    </div>
+                </div>
+                <div class="project-item mb-5">
+                    <div class="position-relative">
+                        <img class="img-fluid" src="img/products/4.jpg" alt="">
+                        <div class="project-overlay">
+                            <a class="btn btn-lg-square btn-light rounded-circle m-1" href="img/products/4.jpg" data-lightbox="project"><i class="fa fa-eye"></i></a>
+                           
+                        </div>
+                    </div>
+                </div>
+                <div class="project-item mb-5">
+                    <div class="position-relative">
+                        <img class="img-fluid" src="img/products/5.jpg" alt="">
+                        <div class="project-overlay">
+                            <a class="btn btn-lg-square btn-light rounded-circle m-1" href="img/products/5.jpg" data-lightbox="project"><i class="fa fa-eye"></i></a>
+                           
+                        </div>
+                    </div>
+                </div>
+                <div class="project-item mb-5">
+                    <div class="position-relative">
+                        <img class="img-fluid" src="img/products/6.jpg" alt="">
+                        <div class="project-overlay">
+                            <a class="btn btn-lg-square btn-light rounded-circle m-1" href="img/products/6.jpg" data-lightbox="project"><i class="fa fa-eye"></i></a>
+                           
+                        </div>
+                    </div>
+                </div>
+                <div class="project-item mb-5">
+                    <div class="position-relative">
+                        <img class="img-fluid" src="img/products/7.jpeg" alt="">
+                        <div class="project-overlay">
+                            <a class="btn btn-lg-square btn-light rounded-circle m-1" href="img/products/7.jpeg" data-lightbox="project"><i class="fa fa-eye"></i></a>
+                           
+                        </div>
+                    </div>
+                </div>
+                <div class="project-item mb-5">
+                    <div class="position-relative">
+                        <img class="img-fluid" src="img/products/8.jpeg" alt="">
+                        <div class="project-overlay">
+                            <a class="btn btn-lg-square btn-light rounded-circle m-1" href="img/products/8.jpeg" data-lightbox="project"><i class="fa fa-eye"></i></a>
+                           
+                        </div>
+                    </div>
+                </div>
+                <div class="project-item mb-5">
+                    <div class="position-relative">
+                        <img class="img-fluid" src="img/products/9.jpeg" alt="">
+                        <div class="project-overlay">
+                            <a class="btn btn-lg-square btn-light rounded-circle m-1" href="img/products/9.jpeg" data-lightbox="project"><i class="fa fa-eye"></i></a>
+                           
+                        </div>
+                    </div>
+                </div>
+                <div class="project-item mb-5">
+                    <div class="position-relative">
+                        <img class="img-fluid" src="img/products/10.jpeg" alt="">
+                        <div class="project-overlay">
+                            <a class="btn btn-lg-square btn-light rounded-circle m-1" href="img/products/10.jpeg" data-lightbox="project"><i class="fa fa-eye"></i></a>
+                           
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Project End -->
+
+
+    <!-- Quote Start -->
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="row g-5">
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <p class="fs-5 fw-medium text-primary">Teklif Alın</p>
+                    <h1 class="display-5 mb-4">Uzman Yardımımıza mı ihtiyacınız var?</h1>
+                    <p>Evinizi, iş yerinizi veya tesisinizi daha konforlu, daha verimli ve daha sağlıklı hale getirmek isterseniz, bizimle iletişime geçmekten çekinmeyin. Sizin için en iyi izolasyon ve havalandırma çözümlerini sunmak için buradayız.</p>
+                    
+                    
+                </div>
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
+                    
+                    <div class="row g-3">
+                        <h3>Ali OVA</h3>
+                        <div class="col-sm-12">
+                            <a  class="d-inline-flex align-items-center rounded overflow-hidden border border-primary" href="tel://05336046949">
+                                <span class="btn-lg-square bg-primary" style="width: 55px; height: 55px;">
+                                    <i class="fa fa-phone-alt text-white"></i>
+                                </span>
+                                <span  class="fs-5 fw-medium mx-4">+0533 604 6949</span>
+                            </a>
+                        </div>
+                        <h3>Şeref KIRCI</h3>
+                        <div class="col-sm-12">
+                            <a  class="d-inline-flex align-items-center rounded overflow-hidden border border-primary" href="tel://05337469342">
+                                <span class="btn-lg-square bg-primary" style="width: 55px; height: 55px;">
+                                    <i class="fa fa-phone-alt text-white"></i>
+                                </span>
+                                <span   class="fs-5 fw-medium mx-4">+0533 746 9342</span>
+                            </a>
+                        </div>
+                        <div class="col-sm-6">
+                        
+                        </div>
+
+ 
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Quote Start -->
+
+
+    <!-- Team Start -->
+    <!--
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
+                <p class="fs-5 fw-medium text-primary">Our Team</p>
+                <h1 class="display-5 mb-5">Our Expert People Ready to Help You</h1>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="team-item rounded overflow-hidden pb-4">
+                        <img class="img-fluid mb-4" src="img/team-1.jpg" alt="">
+                        <h5>Alex Robin</h5>
+                        <span class="text-primary">Founder & CEO</span>
+                        <ul class="team-social">
+                            <li><a class="btn btn-square" href=""><i class="fab fa-facebook-f"></i></a></li>
+                            <li><a class="btn btn-square" href=""><i class="fab fa-twitter"></i></a></li>
+                            <li><a class="btn btn-square" href=""><i class="fab fa-instagram"></i></a></li>
+                            <li><a class="btn btn-square" href=""><i class="fab fa-linkedin-in"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="team-item rounded overflow-hidden pb-4">
+                        <img class="img-fluid mb-4" src="img/team-2.jpg" alt="">
+                        <h5>Adam Crew</h5>
+                        <span class="text-primary">Co Founder</span>
+                        <ul class="team-social">
+                            <li><a class="btn btn-square" href=""><i class="fab fa-facebook-f"></i></a></li>
+                            <li><a class="btn btn-square" href=""><i class="fab fa-twitter"></i></a></li>
+                            <li><a class="btn btn-square" href=""><i class="fab fa-instagram"></i></a></li>
+                            <li><a class="btn btn-square" href=""><i class="fab fa-linkedin-in"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="team-item rounded overflow-hidden pb-4">
+                        <img class="img-fluid mb-4" src="img/team-3.jpg" alt="">
+                        <h5>Boris Johnson</h5>
+                        <span class="text-primary">Executive Manager</span>
+                        <ul class="team-social">
+                            <li><a class="btn btn-square" href=""><i class="fab fa-facebook-f"></i></a></li>
+                            <li><a class="btn btn-square" href=""><i class="fab fa-twitter"></i></a></li>
+                            <li><a class="btn btn-square" href=""><i class="fab fa-instagram"></i></a></li>
+                            <li><a class="btn btn-square" href=""><i class="fab fa-linkedin-in"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
+                    <div class="team-item rounded overflow-hidden pb-4">
+                        <img class="img-fluid mb-4" src="img/team-4.jpg" alt="">
+                        <h5>Robert Jordan</h5>
+                        <span class="text-primary">Digital Marketer</span>
+                        <ul class="team-social">
+                            <li><a class="btn btn-square" href=""><i class="fab fa-facebook-f"></i></a></li>
+                            <li><a class="btn btn-square" href=""><i class="fab fa-twitter"></i></a></li>
+                            <li><a class="btn btn-square" href=""><i class="fab fa-instagram"></i></a></li>
+                            <li><a class="btn btn-square" href=""><i class="fab fa-linkedin-in"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>-->
+    <!-- Team End -->
+
+
+    <!-- Testimonial Start -->
+     <!--
+    <div class="container-xxl pt-5">
+        <div class="container">
+            <div class="text-center text-md-start pb-5 pb-md-0 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
+                <p class="fs-5 fw-medium text-primary">Testimonial</p>
+                <h1 class="display-5 mb-5">What Clients Say About Our Services!</h1>
+            </div>
+            <div class="owl-carousel testimonial-carousel wow fadeInUp" data-wow-delay="0.1s">
+                <div class="testimonial-item rounded p-4 p-lg-5 mb-5">
+                    <img class="mb-4" src="img/testimonial-1.jpg" alt="">
+                    <p class="mb-4">Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo</p>
+                    <h5>Client Name</h5>
+                    <span class="text-primary">Profession</span>
+                </div>
+                <div class="testimonial-item rounded p-4 p-lg-5 mb-5">
+                    <img class="mb-4" src="img/testimonial-2.jpg" alt="">
+                    <p class="mb-4">Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo</p>
+                    <h5>Client Name</h5>
+                    <span class="text-primary">Profession</span>
+                </div>
+                <div class="testimonial-item rounded p-4 p-lg-5 mb-5">
+                    <img class="mb-4" src="img/testimonial-3.jpg" alt="">
+                    <p class="mb-4">Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo</p>
+                    <h5>Client Name</h5>
+                    <span class="text-primary">Profession</span>
+                </div>
+                <div class="testimonial-item rounded p-4 p-lg-5 mb-5">
+                    <img class="mb-4" src="img/testimonial-4.jpg" alt="">
+                    <p class="mb-4">Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo</p>
+                    <h5>Client Name</h5>
+                    <span class="text-primary">Profession</span>
+                </div>
+            </div>
+        </div>
+    </div>-->
+    <!-- Testimonial End -->
+
+
+    <!-- Footer Start -->
+    <div class="container-fluid bg-dark footer mt-5 py-5 wow fadeIn" data-wow-delay="0.1s">
+        <div class="container py-5">
+            <div class="row g-5">
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-white mb-4">Ofisimiz</h4>
+                    <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>Çerkezköy, Tekirdağ</p>
+                    <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+0533 604 6949</p>
+                    <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+0533 746 9342</p>
+                    <p class="mb-2"><i class="fa fa-envelope me-3"></i>a.ova59@gmail.com</p>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <a class="btn btn-link" href="index.html">Ana Sayfa</a>
+                    <a class="btn btn-link" href="about.html">Hakkımızda</a>
+                    <a class="btn btn-link" href="service.html">Hizmetlerimiz</a>
+                    <a class="btn btn-link" href="contact.html">İletişim</a>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+
+    <!-- Copyright Start -->
+    <div class="container-fluid copyright py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                    &copy; <a class="fw-medium text-light" href="#">Teknik İzolasyon ve Havalandırma</a>, All Right Reserved.
+                </div>
+                <div class="col-md-6 text-center text-md-end">
+                    <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
+                    Designed By <a class="fw-medium text-light" href="https://sahinsoftware.com/#/">sahinsoftware</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Copyright End -->
+
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded-circle back-to-top"><i class="bi bi-arrow-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/lightbox/js/lightbox.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
 </html>
-
